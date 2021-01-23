@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrew/Programming/AAGame_Demo/src/main.cpp
+unistd.h
+-
+limits.h
+-
+SFML/Graphics.hpp
+-
+iostream
+-
+string
+-
+
